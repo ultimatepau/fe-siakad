@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Ganti URL base sesuai dengan lokasi backend kamu
 export const api = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'http://127.0.0.1:3000',
   headers: {
     'Content-Type': 'application/json',
   },
